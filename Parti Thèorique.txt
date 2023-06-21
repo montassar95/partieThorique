@@ -1,0 +1,24 @@
+
+Solution 1:
+
+//book
+
+_______________________________________________________________________________________
+Solution 2:
+
+//book[@type='roman']/title
+
+_______________________________________________________________________________________
+Solution 3:
+
+count(//book[@type='bd'])
+
+
+_______________________________________________________________________________________
+Solution 4:
+
+la requête XPath "/library/library/ancestor-or-self::library" 
+renverra simplement l'élément "library" lui-même,
+car il est le seul élément "library" dans la hiérarchie.
+
+_______________________________________________________________________________________
